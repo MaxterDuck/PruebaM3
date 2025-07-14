@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "password": "1234",
+      "name": "Administrador",
+      "email": "admin@admin.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "Lola",
+      "password": "1234",
+      "name": "Lola",
+      "email": "Lola@gmail.com",
+      "role": "user"
+    },
+    {
+      "username": "Pepe",
+      "password": "1234",
+      "name": "Pepe",
+      "email": "pepe@gmail.com",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Fiesta",
+      "description": "Es el proximo projecto X",
+      "capacity": 30,
+      "date": "2025-07-20",
+      "enrolledUsers": []
+    },
+    {
+      "id": 2,
+      "name": "Pool Party",
+      "description": "Todos en traje de baño o nada",
+      "capacity": 19,
+      "date": "2025-07-15",
+      "enrolledUsers": [
+        2
+      ]
+    },
+    {
+      "name": "Ver partido",
+      "description": "Nacional vs america",
+      "capacity": 4,
+      "date": "2025-07-25",
+      "id": 3,
+      "enrolledUsers": []
+    }
+  ]
+}

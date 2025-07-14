@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SPA CRUD Vite</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <div id="login" class="login-screen">
+    <div class="login-box">
+      <h2>Login</h2>
+      <label for="loginUser" class="form-label">Email</label>
+      <input type="text" id="loginUser" placeholder="Enter your email" />
+      <label for="loginPass" class="form-label">Password</label>
+      <input type="password" id="loginPass" placeholder="Enter your password" />
+      <button id="btnLogin">Log in</button>
+      <p class="form-link">You do not have an account? <a href="#" id="linkRegister">Register</a></p>
+    </div>
+  </div>
+
+  <!-- REGISTRO -->
+  <div id="register" class="register-screen" style="display: none;">
+    <div class="register-box">
+      <h2>Register</h2>
+      <label for="regName" class="form-label">Full Name</label>
+      <input type="text" id="regName" placeholder="Enter your full name" />
+      <label for="regUsername" class="form-label">Username</label>
+      <input type="text" id="regUsername" placeholder="Choose a username" />
+      <label for="regEmail" class="form-label">Email</label>
+      <input type="email" id="regEmail" placeholder="Enter your email" />
+      <label for="regPassword" class="form-label">Password</label>
+      <input type="password" id="regPassword" placeholder="Enter your password" />
+      <label for="regPassword2" class="form-label">Confirm Password</label>
+      <input type="password" id="regPassword2" placeholder="Confirm your password" />
+      <button id="btnRegister">Register</button>
+      <p class="form-link">¿Ya tienes cuenta? <a href="#" id="linkBackToLogin">Iniciar sesión</a></p>
+    </div>
+  </div>
+
+  <!-- LAYOUT PRINCIPAL -->
+  <div id="app-layout" style="display: none;">
+    <aside>
+      <h1>EVENTS</h1>
+      <div class="profile">
+        <img src="./imgs/ImgProfille.jpg" alt="Profile" />
+        <p id="sidebarName">Usuario</p>
+        <p class="role" id="sidebarRole">Rol</p>
+      </div>
+      <nav>
+        <ul>
+          <li id="navHome">Home</li>
+          <li id="navUsers">Events</li>
+          <li id="navEnrollments">Enrollments</li>
+          <li id="btnLogout">Logout</li>
+        </ul>
+      </nav>
+    </aside>
+    <main id="app"></main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
