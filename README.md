@@ -47,7 +47,7 @@ Reto-SPA-Vite/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/MaxterDuck/Reto-SPA-Vite.git
+[git clone https://github.com/MaxterDuck/Reto-SPA-Vite.git](https://github.com/MaxterDuck/PruebaM3)
 cd PruebaM3
 ```
 
